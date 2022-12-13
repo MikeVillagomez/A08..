@@ -1,5 +1,5 @@
 :root{
-	--global-color-1: #800000;
+	--global-color-1:#800000;
 }
 
 body {
@@ -7,26 +7,36 @@ body {
     font-size: 100%;
 }
 
+a:hover{
+	font-style: italic;
+}
+
+a:focus{
+	font-style:italic;
+}
+
+
+
 /* the styles for the header */
 header img {
 	float: left;
 }
+header h2{
+	 font-size: 170%;
+	 color: var(--global-color-1);
+	 text-indent: 30px;
+ }
 
-header h2 {
-	font-size: 170%;
-	color: #800000;
-	text-indent: 30px;
+header h3{
+	font-size:130%;
+	font-style:italic;
+	text-indent:30px;
+}
+.shadow{
+	color:var(--global-color-1);
+	text-shadow: 2px 1.5px;
 }
 
-header h3 {
-	font-size: 130%;
-	font-style: italic;
-	text-indent: 30px;
-}
-
-.shadow {
-	text-shadow: 1px 1px #800000;
-}
 /* the styles for the main content */
 main {
 	clear: left;
@@ -41,12 +51,7 @@ main h2 {
 main h3 {
 	font-size: 105%;
 }
-
-a:hover {
-	font-style: italic;
-}
 /* the styles for the footer */
-
-footer p {
-	text-align: center;
+footer p{
+	text-align:center;
 }
